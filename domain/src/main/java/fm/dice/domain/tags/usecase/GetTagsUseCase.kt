@@ -5,5 +5,5 @@ import javax.inject.Inject
 
 class GetTagsUseCase @Inject constructor(private val repository: TagRepository) {
 
-    suspend operator fun invoke() = repository.get().sortedBy(String::firstOrNull)
+    suspend operator fun invoke() = repository.get().shuffled()
 }
