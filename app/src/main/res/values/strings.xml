@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tronald Dump</string>
+
+    <string name="offline">You are offline</string>
+    <string name="timeout">Request timed out</string>
+    <string name="unauthorised">Unauthorised</string>
+    <string name="forbidden">Access Forbidden</string>
+    <string name="generic_error_http">Loading data failed - %d - %s</string>
+    <string name="generic_error">Loading data failed - %s</string>
+</resources>
